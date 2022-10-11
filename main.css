@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+#doorcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#door1 {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid white;
+}
+
+#door2 {
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid white;
+}
+
+#door3 {
+    height: 200px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 2px solid white;
+}
