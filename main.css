@@ -28,3 +28,7 @@ body {
     background-color: greenyellow;
     border: 2px solid white;
 }
+
+.escapebtn, .back {
+    display: none;
+}
