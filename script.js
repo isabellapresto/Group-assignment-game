@@ -9,6 +9,7 @@ const escapebtn = document.querySelector(".escapebtn");
 const textHeader = document.querySelector(".textHeader");
 const imageDoor1 = document.querySelector(".imagedoor1");
 const imageDoor3 = document.querySelector(".imagedoor3");
+const img =document.querySelector ("img")
 
 //Happens when you go in to door 1 
 btn1.addEventListener("click", openDoor1);
@@ -25,6 +26,20 @@ function openDoor1(){
     imageDoor3.style.display = "none";
 }
 
+//door 2
+
+btn2.addEventListener("click", openDoor2);
+
+function openDoor2(){
+    body.style.backgroundColor = "pink";
+    door1.style.display = "none";
+    door2.style.display = "none";
+    door3.style.display = "none";
+    escapebtn.style.display = "block";
+    textHeader.innerText = "Gongratulations! You won a cake!";
+    textHeader.style.color = "black";
+    img.style.display = "block"
+}
 
 //Happens when you go in to door 3
 
@@ -52,6 +67,8 @@ function walkToEscape(){
     imageDoor1.style.display ="none";
     imageDoor3.style.display = "none";
     back.style.display = "none";
-    textDoor3.innerText = "Let the game begin";
-    textDoor3.style.color = "white";
+    textHeader.innerText = "Let the game begin";
+    textHeader.style.color = "white";
+    img.style.display = "none"
 }
+
