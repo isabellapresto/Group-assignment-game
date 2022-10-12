@@ -36,8 +36,16 @@ body {
     border: 3px solid red;
 }
 
-.textdoor3 {
+.textHeader {
     color: white;
+}
+
+.imagedoor1 {
+    display: none;
+}
+
+.imagedoor3 {
+    display: none;
 }
 
 img {
