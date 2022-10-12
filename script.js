@@ -6,8 +6,7 @@ const btn1 = document.querySelector (".btn1");
 const btn2 = document.querySelector (".btn2");
 const btn3 = document.querySelector(".btn3");
 const escapebtn = document.querySelector(".escapebtn");
-const back = document.querySelector(".back");
-const textDoor3 = document.querySelector(".textdoor3");
+const textHeader = document.querySelector(".textHeader");
 
 //Happens when you go in to door 1 
 
@@ -30,8 +29,8 @@ function openDoor3(){
     door3.style.display = "none";
     escapebtn.style.display = "block";
     back.style.display = "block";
-    textDoor3.innerText = "No wrong turn!!";
-    textDoor3.style.color = "red";
+    textHeader.innerText = "No wrong turn!!";
+    textHeader.style.color = "red";
 }
 
 escapebtn.addEventListener("click", walkToEscape);
