@@ -39,3 +39,7 @@ body {
 .textdoor3 {
     color: white;
 }
+
+img {
+    display: none;
+}
