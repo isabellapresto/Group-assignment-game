@@ -9,7 +9,7 @@ const escapebtn = document.querySelector(".escapebtn");
 const textHeader = document.querySelector(".textHeader");
 const imageDoor1 = document.querySelector(".imagedoor1");
 const imageDoor3 = document.querySelector(".imagedoor3");
-const img =document.querySelector ("img")
+const cake = document.querySelector(".cake")
 
 //Happens when you go in to door 1 
 btn1.addEventListener("click", openDoor1);
@@ -38,7 +38,7 @@ function openDoor2(){
     escapebtn.style.display = "block";
     textHeader.innerText = "Gongratulations! You won a cake!";
     textHeader.style.color = "black";
-    img.style.display = "block"
+    cake.style.display = "block";
 }
 
 //Happens when you go in to door 3
